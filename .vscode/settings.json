@@ -1,0 +1,10 @@
+{
+  "yaml.validate": false,
+  "yaml.customTags": [
+    "!Ref",
+    "!GetAtt",
+    "!Sub"
+  ],
+  "github-actions.workflows.pinned.workflows": [],
+  "github-actions.ignore-certificates": false
+}
