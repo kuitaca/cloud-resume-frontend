@@ -30,7 +30,7 @@ jobs:
             --source . \
             --pattern "*.html" \
             --overwrite
-          
+                    
           az storage blob upload-batch \
             --account-name kwazstorageacct \
             --auth-mode key \
@@ -47,4 +47,4 @@ jobs:
             --content-paths "/*" \
             --profile-name kwaz-resume-cdn-profile \
             --name kwaz-resume-cdn-endpoint \
-            --resource-group rg-cloud-resume-challenge
+            --resource-group kw-simple-resume-dev 
